@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ed_pegs",
+  "info": {
+    "name": "ed-peg"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Nombres": {
+      "type": "string"
+    },
+    "ApellidoPaterno": {
+      "type": "string"
+    },
+    "ApellidoMaterno": {
+      "type": "string"
+    }
+  }
+}
